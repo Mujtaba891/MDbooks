@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  border: border-box;
+  font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #28a745;
+    color: #ffffff;
+    position: fixed;
+}
+header img {
+  border-radius: 20px;
+  border: 2px solid darkblue;
+}
+#searchBar{
+  padding: 5px;
+   border-radius: 20px;
+   border: 2px solid orangered;
+   background: orange;
+   width: 280px;
+}
+.request-page-button {
+    padding: 5px 10px;
+    font-size: 8px;
+    color: #000000;
+    background-color: #26F518;
+    border: 3px solid blue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.request-page-button:hover {
+    background-color: #0032F7;
+}
+.btn{
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid green;
+  background: greenyellow;
+}
+#app {
+  padding: 1rem; 
+  padding-top: 50px;
+}
+.page { 
+  display: none; 
+}
+.page.active { 
+  display: block;
+}
+#bookList {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.book { 
+  border: 2px solid none; 
+  padding: 1rem; 
+  width: 50%;
+  height: 350px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 20px 20px 60px #FFFFFF, -20px -20 60px #000000;
+}
+.book img { 
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+  border-bottom: 2px solid #FEC725;
+  border-left: 1.5px solid #645B43;
+  border-right: 1.5px solid #645b43;
+}
+.book h3{
+  align-self: center;
+  font-size: 10px;
+  font-weight: 70px;
+  border-bottom: 1px solid #C8A338;
+}
+.book p1{
+  font-size: 13px;
+  font-family: bold;
+}
+.book p{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 7px;
+  font-weight: 200px;
+}
+.book button{
+  background: orange;
+  border: 2px solid orangered;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.book button:hover{
+  background: black;
+  color: white;
+  border: 2px solid #1E2061;
+  border-radius: 20px;
+}
+
+.pagination { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  }
+
+ /* Scrollable categories styling */
+.scrollable-categories {
+  display: flex;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+  gap: 0.5rem;
+  position: relative, fixed;
+}
+
+.category {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  flex-shrink: 0;
+  transition: background-color 0.3s;
+}
+
+.category:hover {
+  background-color: #000000;
+}

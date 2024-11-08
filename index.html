@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD books-Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="logo" width="40px">
+    <input type="text" id="searchBar" placeholder="Search books...">
+    <button onclick="window.location.href='request-book.html'" class="request-page-button">book request </button>
+  </header>
+
+  <main id="app">
+    <section id="homePage" class="page active">
+       <!-- Scrollable Category Section -->
+  <div id="categoryContainer" class="scrollable-categories"></div>
+      <div id="bookList"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+</body>
+</html>

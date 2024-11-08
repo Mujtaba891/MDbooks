@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #28a745;
+    color: #ffffff;
+    position: relative;
+}
+header img {
+  border-radius: 20px;
+  border: 2px solid darkblue;
+}
+.request-button {
+  font-size: 5px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  background-color: cadetblue;
+  border: 3px dashed gray;
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.upload-icon:hover {
+  border: 2px solid #7117CD;
+  border-radius: 50px 50px 20px 20px;
+  background: indianred;
+  color: #173FCD;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+    
+}
+
+.upload-icon {
+    text-align: center;
+    font-size: 5px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  background-color: cadetblue;
+  border: 3px dashed gray;
+  padding: 25px 25px;
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+    
+}
+
+.upload-icon {
+    display: inline-block;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+}
+
+.form-group, .form-row {
+    margin: 10px 0;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea, select, .submit-button {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+ input:hover {
+  border-bottom: 5px solid orangered;
+  background: greenyellow;
+  border-radius: 20px 20px 10px 10px;
+  border: none;
+}
+ textarea:hover {
+  border-bottom: 5px solid orangered;
+  background: greenyellow;
+}
+.submit-button {
+    background-color: #00aaff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: relative;
+    width: auto;
+    align-self: center;
+    margin-left: 150px;
+    border-radius: 10px 10px 30px 30px;
+    border-bottom: 3px solid orange;
+    border-left: 8px solid orangered;
+    border-right: 8px solid orangered;
+}
+.submit-button:hover {
+  background: black;
+  color: white;
+  border: 3px solid #7117CD;
+  border-radius: 30px 30px 15px 15px;
+}
+
+.map-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    margin-top: 10px;
+}
